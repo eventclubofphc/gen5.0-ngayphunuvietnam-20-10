@@ -539,15 +539,15 @@
 
   <!-- Audio MP3 đính kèm trực tiếp -->
   <audio id="bg-music" loop preload="auto">
-    <source src="emxinh.mp3" type="audio/mpeg">
+    <source src="tocngan.mp3" type="audio/mpeg">
   </audio>
 
   <!-- Button Music Top-Right -->
-  <button class="audio-player-btn" id="music-toggle" onclick="toggleMusic()" aria-label="Bật/tắt nhạc: Em Xinh - MONO" aria-pressed="false">
+  <button class="audio-player-btn" id="music-toggle" onclick="toggleMusic()" aria-label="Bật/tắt nhạc: Tóc Ngắn - ATVNCG2026" aria-pressed="false">
     <span class="vinyl" id="music-disc" aria-hidden="true"></span>
     <span class="track-info" id="music-text">
-      <span class="track-title">Em Xinh</span>
-      <span class="track-artist">MONO</span>
+      <span class="track-title">Tóc Ngắn</span>
+      <span class="track-artist">ATVNCG2026</span>
     </span>
     <i class="fa-solid fa-play track-state" id="music-icon" aria-hidden="true"></i>
   </button>
@@ -655,7 +655,7 @@
         bgMusic.play().then(() => {
           setPlayingUI(true);
         }).catch(err => {
-          alert("Không tìm thấy file emxinh.mp3! Bạn nhớ đặt file nhạc tên emxinh.mp3 nằm cùng thư mục với file web này nhé.");
+          alert("Không tìm thấy file tocngan.mp3! Bạn nhớ đặt file nhạc tên tocngan.mp3 nằm cùng thư mục với file web này nhé.");
         });
       }
     }
